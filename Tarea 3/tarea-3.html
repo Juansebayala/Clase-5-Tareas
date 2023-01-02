@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tarea 3</title>
+</head>
+<body>
+	<h1>Calculadora de videos de r/Argentina Programa</h1>
+	<p id="parrafo-peticion">Por favor, ingrese las horas, minutos y segundos de las clases para ir agregándolas y al final calcular la duración de todas juntas</p>
+	<form>
+		<label for="horas">Horas
+			<input type="number" id="horas" max="10">
+		</label>
+		<label for="minutos">Minutos
+			<input type="number" id="minutos" max="59">
+		</label>
+		<label for="segundos">Segundos
+			<input type="number" id="segundos" max="59">
+		</label>
+		<button id="boton-agregar">Agregar video</button>
+		<button id="boton-calcular">Calcular videos agregados</button>
+	</form>
+	<div id="mensaje-alerta"></div>
+	<strong id="mensaje-final"></strong>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
